@@ -1,11 +1,7 @@
-import { Link } from "react-router-dom"
-
 export default function Footer() {
   return (
     <footer> 
-      <Link to="/posts/new">Menu 1</Link>
-      <Link to="/posts/new">Menu 2</Link>
-      <Link to="/posts/new">Menu 3</Link>
+      <div className="footer__copyright"> © 2025 황재웅. All Rights Reserved. </div>
     </footer>
   )
 }
