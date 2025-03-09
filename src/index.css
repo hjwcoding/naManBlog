@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row-reverse; */
+  border-bottom: 1px solid #e2e2e2;
+  /* 위 아래 10px 여백 좌우 40px 여백 */
+  padding: 10px 40px; 
+  min-height: 40px;
+  align-items: center;
+}
+
+header .header__logo {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+header a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+header a:focus,
+header a:hover {
+  color: black;
+}
