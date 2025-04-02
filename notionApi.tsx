@@ -1,5 +1,8 @@
-const NOTION_API_KEY = "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"; // 생성한 Integration Token 입력
-const DATABASE_ID = "1bf91c268252803e87ccf6495066097f"; // 데이터베이스 ID 입력
+import dotenv from "dotenv";
+dotenv.config();
+
+const NOTION_API_KEY = process.env.NOTION_API_KEY as string;
+const DATABASE_ID = process.env.DATABASE_ID as string;
 
 async function getDatabase() {
   const response = await fetch(`https://api.notion.com/v1/databases/${DATABASE_ID}/query`, {
