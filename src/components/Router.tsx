@@ -11,7 +11,7 @@ export default function Router() {
       <Route path="/posts" element={<PostList/>} />
       <Route path="/profile" element={<Profile/>} />
       <Route path="*" element={<Navigate replace to="/"/>} />
-    </Routes> 
+    </Routes>
   </>
   )
 }

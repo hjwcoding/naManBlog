@@ -103,7 +103,7 @@
   },
   "include": [
     "src"
-  ],
+, "src/lib/notionApi.tsx"  ],
   "path":{
     "pages/*":["pages/*"],
     "components/*":["components/*"]

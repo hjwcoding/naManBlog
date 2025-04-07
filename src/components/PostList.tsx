@@ -27,7 +27,7 @@ export default function PostList({hasNavigation = true}:PostListProps) {
         <div className="post__list">
           {[...Array(10)].map((e, index) => (
             <div key={index} className="post__box">
-              <Link to={`\posts/${index}`}>게시글 {index}</Link>
+              <Link to={`posts/${index}`}>게시글 {index}</Link>
                 <div className="post__profile-box">
                   <div className="post__profile"/>
                   <div className="post__author-name">재웅재웅재웅</div>
