@@ -1,5 +1,3 @@
-
-
 export async function getDatabase() {
   const NOTION_API_KEY = process.env.REACT_APP_NOTION_API_KEY as string;
   const DATABASE_ID = process.env.REACT_APP_DATABASE_ID as string;
